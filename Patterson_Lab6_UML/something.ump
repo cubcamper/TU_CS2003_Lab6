@@ -1,0 +1,26 @@
+class Account
+{
+  Customer holder;
+Order order;
+float balance;
+acctNumber int;
+  1 -- 1 Customer;
+  1 -- * Order;
+}
+
+class Customer
+{
+  name;
+  primaryAddress;
+  int phoneNumber;
+  int creditCardNumber;
+}
+
+class Order
+{
+  float weight;
+  item;
+  origin;
+  float price;
+  }
+
